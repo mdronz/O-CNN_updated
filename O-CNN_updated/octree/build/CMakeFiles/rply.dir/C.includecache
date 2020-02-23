@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/content/O-CNN_updated/octree/external/rply-1.1.4/rply.c
+stdio.h
+-
+ctype.h
+-
+assert.h
+-
+string.h
+-
+limits.h
+-
+float.h
+-
+stdarg.h
+-
+stdlib.h
+-
+stddef.h
+-
+rply.h
+/content/O-CNN_updated/octree/external/rply-1.1.4/rply.h
+rplyfile.h
+/content/O-CNN_updated/octree/external/rply-1.1.4/rplyfile.h
+stdint.h
+-
+
+/content/O-CNN_updated/octree/external/rply-1.1.4/rply.h
+
+/content/O-CNN_updated/octree/external/rply-1.1.4/rplyfile.h
+

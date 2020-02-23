@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/octree2pts_suncg.dir/tools/octree2pts_suncg.cpp.o CMakeFiles/octree2pts_suncg.dir/cmake_device_link.o  -o octree2pts_suncg  -L/usr/local/cuda/targets/x86_64-linux/lib liboctree_lib.a librply.a -lcudadevrt -lcudart_static -lrt -lpthread -ldl 

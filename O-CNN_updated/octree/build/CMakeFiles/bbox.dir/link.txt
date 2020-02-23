@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/bbox.dir/tools/bbox.cpp.o CMakeFiles/bbox.dir/cmake_device_link.o  -o bbox  -L/usr/local/cuda/targets/x86_64-linux/lib liboctree_lib.a librply.a -lcudadevrt -lcudart_static -lrt -lpthread -ldl 

@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/octree_dropout.dir/tools/octree_dropout.cpp.o CMakeFiles/octree_dropout.dir/cmake_device_link.o  -o octree_dropout  -L/usr/local/cuda/targets/x86_64-linux/lib liboctree_lib.a librply.a -lcudadevrt -lcudart_static -lrt -lpthread -ldl 

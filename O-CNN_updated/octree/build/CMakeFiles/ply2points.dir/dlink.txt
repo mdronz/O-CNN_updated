@@ -1,0 +1,1 @@
+/usr/local/cuda/bin/nvcc   -Xcompiler=-fPIC -Wno-deprecated-gpu-targets -shared -dlink CMakeFiles/ply2points.dir/tools/ply2points.cpp.o -o CMakeFiles/ply2points.dir/cmake_device_link.o  -L/usr/local/cuda/targets/x86_64-linux/lib liboctree_lib.a librply.a -lcudadevrt -lcudart_static -lrt -lpthread -ldl 

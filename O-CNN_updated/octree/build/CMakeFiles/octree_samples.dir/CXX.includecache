@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../octree/cmd_flags.h
+map
+-
+memory
+-
+vector
+-
+iostream
+-
+sstream
+-
+algorithm
+-
+
+../octree/filenames.h
+vector
+-
+string
+-
+
+../octree/octree_samples.h
+cstring
+-
+
+/content/O-CNN_updated/octree/tools/octree_samples.cpp
+iostream
+-
+fstream
+-
+octree_samples.h
+/content/O-CNN_updated/octree/tools/octree_samples.h
+filenames.h
+/content/O-CNN_updated/octree/tools/filenames.h
+cmd_flags.h
+/content/O-CNN_updated/octree/tools/cmd_flags.h
+

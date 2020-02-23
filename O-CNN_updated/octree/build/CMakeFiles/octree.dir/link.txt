@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/octree.dir/tools/build_octree.cpp.o CMakeFiles/octree.dir/cmake_device_link.o  -o octree  -L/usr/local/cuda/targets/x86_64-linux/lib liboctree_lib.a librply.a -lcudadevrt -lcudart_static -lrt -lpthread -ldl 

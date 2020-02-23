@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/simplify_points.dir/tools/simplify_points.cpp.o CMakeFiles/simplify_points.dir/cmake_device_link.o  -o simplify_points  -L/usr/local/cuda/targets/x86_64-linux/lib liboctree_lib.a librply.a -lcudadevrt -lcudart_static -lrt -lpthread -ldl 
